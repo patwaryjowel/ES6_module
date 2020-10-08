@@ -29,23 +29,10 @@
 
 
 
-
 // import Person from './plugins/person.js';
 
-// let classNew1 = new Person('jowel', 'Patwary@gmail.com')
-// console.log(classNew1.name);
-
-// classNew.print()
-
-
-
-/* implement Class */
-
-
-import Jowel from './plugins/person.js';
-
-let classNew = new Jowel('jowel', 'Patwary@gmail.com');
-console.log(`Name: ${classNew.add} Email: ${classNew.sum} Age: ${classNew.nameFun(2020,1997)} ` )
+// let classNew = new Person('jowel', 'Patwary@gmail.com');
+// console.log(`Name: ${classNew.add} Email: ${classNew.sum} Age: ${classNew.nameFun(2020,1997)} ` )
 
 
 
@@ -53,6 +40,21 @@ console.log(`Name: ${classNew.add} Email: ${classNew.sum} Age: ${classNew.nameFu
 
 
 
+
+/*==============================================
+Classes And Inheritance in Details 
+================================================ */
+
+
+import Student from './plugins/student.js';
+
+let st1 = new Student('Jowel', "patwry@gmail.com", '188');
+
+st1.print()
+
+
+
+/* ============== Classes And Inheritance in Details  =============== */
 
 
 

@@ -1,30 +1,16 @@
 
-
-
-// class Person {
-//     constructor(name, email) {
-//         this.name = name;
-//         this.email = email;
-//     }
-
-//     print(){
-//         console.log(`Name: ${this.name}`)
-//     }
-// }
-// export default Person;
-
-
-
-class Jowel {
-    constructor(add, sum) {
-        this.add = add;
-        this.sum = sum;
+class Person {
+    constructor(name, email) {
+        this.name = name;
+        this.email = email;
     };
 
-    nameFun = (a,b) => a-b;
+    print(){
+        console.log(`Name: ${this.name} Email: ${this.email}`)
+    }
 }
 
-export default Jowel;
+export default Person;
 
 
 
